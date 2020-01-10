@@ -28,8 +28,8 @@ def main():
     start_server = websockets.serve(time, "127.0.0.1", 5678)
 
     # (mac os) Get current path and open the gui in default web browser
-    gui_location = str(pathlib.Path().absolute())
-    webbrowser.open_new_tab("file://" + gui_location + "/gui/index.html")
+    gui_location = pathlib.Path.cwd() / 'gui' / 'index.html'
+    webbrowser.open_new_tab(gui_location.as_uri())
 
     # Start the websocket server
     asyncio.get_event_loop().run_until_complete(start_server)
