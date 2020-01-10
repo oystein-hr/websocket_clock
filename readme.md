@@ -1,7 +1,7 @@
 # Minimal websocket app
 ### Runtime environment
 **OS:** macOS  
-**Python version:** 3.8.1
+**Python version:** 3.8.1  
 **Python libraries:** websockets 8.1  
 **Browser:** Chrome  
 
