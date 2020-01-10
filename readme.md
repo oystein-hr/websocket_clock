@@ -1,8 +1,9 @@
 # Minimal websocket app
 ### Runtime environment
-OS: Mac OS  
-Python version: 3.8.1  
-Browser: Chrome  
+**OS:** macOS  
+**Python version:** 3.8.1
+**Python libraries:** websockets 8.1  
+**Browser:** Chrome  
 
 ### About this app
 I want to use HTML, CSS and JS as front-end for Python apps, so as a part of 
